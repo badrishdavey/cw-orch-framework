@@ -1,0 +1,7 @@
+nameNode=hdfs://debian:8020
+jobTracker=debian:8021
+
+queueName=default
+oozie.use.system.libpath=true
+
+oozie.wf.application.path=${nameNode}/workflows/oozie-examples
